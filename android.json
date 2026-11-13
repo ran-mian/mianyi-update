@@ -1,9 +1,9 @@
 {
-    "apk":  "downloads/mianyi-android-1.8.0.apk",
-    "versionName":  "1.8.0",
-    "pub_date":  "2026-11-13T12:22:26.609Z",
-    "versionCode":  41,
-    "notes":  "1.8.0 性能与质感：① 五个页面改为常驻内容区、只切可见性——写作页从「每次重建 WebView」变成 0–1ms 秒开，实测冷启动 4.3s → 1.34s；② WebView 懒加载 + 骨架 + 载入淡入，文章页首帧不再白屏；③ 位图缓存预算提到堆的 1/4（上限 160MB），空闲约 107MB、滚动 96 张图后约 181MB，仍在 200–500MB 允许区间内且低于红线；④ 全站卡片/导航/播放条统一「上缘提亮 + 下缘压暗 + 描边 + 更高 elevation」的立体层次，写作页 H5 同步加阴影与按压反馈。",
-    "size":  1248534,
-    "sha256":  "9BEED12358C63CAFFD70A7758E36C7E8E710CEAA5F3464F36272C89307BD9159"
+    "apk": "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.0/mianyi-android-2.0.0.apk",
+    "versionName": "2.0.0",
+    "pub_date": "2026-11-13T22:45:11.615+08:00",
+    "versionCode": 50,
+    "notes": "2.0.0 重塑安卓端：① 自然圆润视觉——更大的连续圆角、悬浮胶囊导航 + 独立 AI 圆钮、双柔光页面背景、玻璃卡片、有机圆斑、按压回弹与页面淡入，所有页面（含写作 WebView）统一晨林/墨夜色板；② 内置离线 Whisper tiny/base/small 三档模型，录音→log-mel→ONNX 推理全程本机完成，接入 AI 助手与写作语音，繁体输出自动转简体；③ 设置页可切换模型/检查释放，自检新增离线语音，内置示例音频可直接验证；④ 安装包约 437MB（不含用户媒体文件），tiny 档识别时 PSS 约 228MB，默认 tiny、可选 base/small。",
+    "size": 437104747,
+    "sha256": "892AF2559756E0D8EE60E3F333E179F8AAAE1D3BBCF1E7275B0B93051C63F4ED"
 }

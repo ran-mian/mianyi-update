@@ -2,3 +2,6 @@
 downloads/*.blockmap
 *.log
 start-site.ps1
+
+# 大体积 APK 走 GitHub Releases（单文件 100MB 限制）
+downloads/mianyi-android-2.0.0.apk
