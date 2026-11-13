@@ -1,0 +1,4 @@
+﻿downloads/*.exe
+downloads/*.blockmap
+*.log
+start-site.ps1

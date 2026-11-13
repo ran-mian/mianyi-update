@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#151515">
+<title>眠伊 · 更新中心</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./">
+    <span class="logo">眠</span>
+    <span class="brand-text"><b>眠伊</b><small>更新中心</small></span>
+  </a>
+  <nav>
+    <a href="#download">下载</a>
+    <a href="#log">更新日志</a>
+    <a href="#how">如何更新</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">MIANYI · RELEASES</p>
+    <h1>电脑端和手机端<br>都保持最新</h1>
+    <p class="lead">Windows 桌面版与 Android 遥控端的安装包、版本信息、更新日志，都在这一页。</p>
+    <div class="chips">
+      <span>Windows <b id="winVer">—</b></span>
+      <span>Android <b id="androidVer">—</b></span>
+    </div>
+  </section>
+
+  <section id="download" class="grid">
+    <article class="card">
+      <div class="card-top"><span class="os win">Windows</span><span class="version" id="winVer2">—</span></div>
+      <h2>眠伊 · 桌面版</h2>
+      <p class="desc">听音 · 观影 · 赏图 · 文件整理 · AI 写作 · 本地语音</p>
+      <ul class="meta">
+        <li><span>安装包</span><b id="winSize">—</b></li>
+        <li><span>更新时间</span><b id="winDate">—</b></li>
+        <li><span>系统要求</span><b>Windows 10 / 11 x64</b></li>
+      </ul>
+      <a class="btn" id="winDl" href="#">下载 Windows 安装包</a>
+      <p class="note" id="winNotes"></p>
+    </article>
+
+    <article class="card">
+      <div class="card-top"><span class="os android">Android</span><span class="version" id="androidVer2">—</span></div>
+      <h2>眠伊 · 安卓端</h2>
+      <p class="desc">连接同一 Wi-Fi 的电脑端，用手机遥控播放、浏览媒体库</p>
+      <ul class="meta">
+        <li><span>安装包</span><b id="androidSize">—</b></li>
+        <li><span>更新时间</span><b id="androidDate">—</b></li>
+        <li><span>系统要求</span><b>Android 7.0+</b></li>
+      </ul>
+      <a class="btn ghost" id="androidDl" href="#">下载 Android APK</a>
+      <p class="note" id="androidNotes"></p>
+    </article>
+  </section>
+
+  <section class="qr-panel">
+    <img src="assets/qr-site.png" alt="手机扫码打开更新站" />
+    <div>
+      <h2>手机扫码安装安卓版</h2>
+      <p>手机与电脑连同一个 Wi-Fi：扫码打开本页 → 下载 Android APK → 允许“未知来源”安装。首次打开授予媒体权限即可浏览本机音乐、视频、图片。</p>
+      <p class="muted">二维码当前指向 <code>http://10.146.15.122:8080/</code>；以后部署到正式域名时重新生成即可。</p>
+    </div>
+  </section>
+
+  <section id="how" class="panel">
+    <h2>如何更新</h2>
+    <div class="steps">
+      <div class="step">
+        <span class="num">01</span>
+        <div><b>Windows</b><p>打开眠伊 → 设置 → 关于与更新，把「远程更新源」填成本站地址（例如 <code>https://你的域名/ranmian/</code>），点检查更新即可。也可以直接下载安装包覆盖安装，作品与设置都会保留。</p></div>
+      </div>
+      <div class="step">
+        <span class="num">02</span>
+        <div><b>Android</b><p>下载新的 APK 覆盖安装即可；手机浏览器打开本站就能看到最新版本。安装时如提示“未知来源”，允许浏览器安装应用。</p></div>
+      </div>
+      <div class="step">
+        <span class="num">03</span>
+        <div><b>给脚本用</b><p>Windows 读取 <code>latest.json</code>，Android 读取 <code>android.json</code>；两者都是静态 JSON，可以直接被自动化脚本、CI 或手机 App 拉取。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="log" class="panel">
+    <h2>更新日志</h2>
+    <div id="history" class="history"><p class="muted">加载中…</p></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>眠伊 · MianYi</span>
+  <span>静态更新站 · 可部署在任意静态服务器 / 对象存储</span>
+</footer>
+
+<script src="assets/app.js?v=1"></script>
+</body>
+</html>
