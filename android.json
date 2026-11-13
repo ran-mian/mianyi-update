@@ -1,9 +1,9 @@
 {
-  "apk": "downloads/mianyi-android-1.7.4.apk",
-  "versionName": "1.7.4",
-  "pub_date": "2026-11-13T11:54:50.967Z",
-  "versionCode": 39,
-  "notes": "1.7.4：更新检查默认指向公开更新站（https://ran-mian.github.io/mianyi-update）；播放页模式/歌词按钮热区补到 44dp；冷启动把播放器初始化与权限申请延后到首帧后（实测冷启动 4.3s → 3.6s）；其余同 1.7.3。",
-  "size": 1247626,
-  "sha256": "220380821A5A0800C7809D1BC81F44130CBB2BA516AD5A7FE14A03D2A5563B2A"
+    "apk":  "downloads/mianyi-android-1.7.5.apk",
+    "versionName":  "1.7.5",
+    "pub_date":  "2026-11-13T12:01:09.964Z",
+    "versionCode":  40,
+    "notes":  "1.7.5：设置页默认填入公开更新站（https://ran-mian.github.io/mianyi-update），检查更新开箱可用；播放页模式/歌词按钮热区 44dp；冷启动初始化延后到首帧后。",
+    "size":  1247678,
+    "sha256":  "F629DEE80339EE58E8EA08AB4CC2453A5D2AAEDB43DD2F8FC5C665BBA6843DF0"
 }
