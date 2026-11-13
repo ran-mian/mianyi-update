@@ -1,9 +1,9 @@
 {
-    "apk": "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.0/mianyi-android-2.0.0.apk",
-    "versionName": "2.0.0",
-    "pub_date": "2026-11-13T22:45:11.615+08:00",
-    "versionCode": 50,
-    "notes": "2.0.0 重塑安卓端：① 自然圆润视觉——更大的连续圆角、悬浮胶囊导航 + 独立 AI 圆钮、双柔光页面背景、玻璃卡片、有机圆斑、按压回弹与页面淡入，所有页面（含写作 WebView）统一晨林/墨夜色板；② 内置离线 Whisper tiny/base/small 三档模型，录音→log-mel→ONNX 推理全程本机完成，接入 AI 助手与写作语音，繁体输出自动转简体；③ 设置页可切换模型/检查释放，自检新增离线语音，内置示例音频可直接验证；④ 安装包约 437MB（不含用户媒体文件），tiny 档识别时 PSS 约 228MB，默认 tiny、可选 base/small。",
-    "size": 437104747,
-    "sha256": "892AF2559756E0D8EE60E3F333E179F8AAAE1D3BBCF1E7275B0B93051C63F4ED"
+    "apk": "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.1/mianyi-android-2.0.1.apk",
+    "versionName": "2.0.1",
+    "pub_date": "2026-11-13T23:39:21.994+08:00",
+    "versionCode": 51,
+    "notes": "2.0.1 在线播放修复：① 在线音乐点任意一首按整张搜索结果连播，下一首在 ExoPlayer 加载线程懒解析；② 修正影视全屏高度误用长边导致视频区比屏幕高一倍；③ 选集区最高 260dp 内部滚动并自动定位当前集，新增上一集/下一集；④ 音乐网易/GD 双源并行、影视全源并行，结果缓存 5–10 分钟，连接/读取超时收紧；⑤ https 失败自动回退 http，超时/证书/连接重置提示中文化，影视源可手动指定并保留自动兜底。安装包约 437MB（不含用户媒体文件）。",
+    "size": 437104751,
+    "sha256": "134E6698867AC55B2D418D67998993BAE2DA2E48E7EE8F90994ED89E6F472244"
 }
