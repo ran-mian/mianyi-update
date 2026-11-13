@@ -1,9 +1,9 @@
 {
-    "apk":  "downloads/mianyi-android-1.7.5.apk",
-    "versionName":  "1.7.5",
-    "pub_date":  "2026-11-13T12:01:09.964Z",
-    "versionCode":  40,
-    "notes":  "1.7.5：设置页默认填入公开更新站（https://ran-mian.github.io/mianyi-update），检查更新开箱可用；播放页模式/歌词按钮热区 44dp；冷启动初始化延后到首帧后。",
-    "size":  1247678,
-    "sha256":  "F629DEE80339EE58E8EA08AB4CC2453A5D2AAEDB43DD2F8FC5C665BBA6843DF0"
+    "apk":  "downloads/mianyi-android-1.8.0.apk",
+    "versionName":  "1.8.0",
+    "pub_date":  "2026-11-13T12:22:26.609Z",
+    "versionCode":  41,
+    "notes":  "1.8.0 性能与质感：① 五个页面改为常驻内容区、只切可见性——写作页从「每次重建 WebView」变成 0–1ms 秒开，实测冷启动 4.3s → 1.34s；② WebView 懒加载 + 骨架 + 载入淡入，文章页首帧不再白屏；③ 位图缓存预算提到堆的 1/4（上限 160MB），空闲约 107MB、滚动 96 张图后约 181MB，仍在 200–500MB 允许区间内且低于红线；④ 全站卡片/导航/播放条统一「上缘提亮 + 下缘压暗 + 描边 + 更高 elevation」的立体层次，写作页 H5 同步加阴影与按压反馈。",
+    "size":  1248534,
+    "sha256":  "9BEED12358C63CAFFD70A7758E36C7E8E710CEAA5F3464F36272C89307BD9159"
 }
