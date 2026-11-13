@@ -1,8 +1,8 @@
 {
-    "version":  "0.9.0",
-    "pub_date":  "2026-11-08T03:23:51.000Z",
-    "sha256":  "fac956ef97c18bbecd15a54083c95ce2cb2215959896169ae13f839d1b46b6e8",
-    "notes":  "新增收藏（播放坞 + 音乐页筛选）与跨端同步（收藏/歌单，可推送到自建 HTTP 端点，安卓 1.7.0 同协议）；更新包支持 SHA-256 校验；本地媒体代理收紧鉴权（必须带 Token，防被当开放代理）；页面标题在打印/强制色彩下不再隐形；清理死代码。",
-    "url":  "downloads/mianyi-setup-0.9.0.exe",
-    "size":  123437058
+  "version": "0.9.0",
+  "pub_date": "2026-11-08T03:23:51.000Z",
+  "sha256": "fac956ef97c18bbecd15a54083c95ce2cb2215959896169ae13f839d1b46b6e8",
+  "notes": "新增收藏（播放坞 + 音乐页筛选）与跨端同步（收藏/歌单，可推送到自建 HTTP 端点，安卓 1.7.0 同协议）；更新包支持 SHA-256 校验；本地媒体代理收紧鉴权（必须带 Token，防被当开放代理）；页面标题在打印/强制色彩下不再隐形；清理死代码。",
+  "url": "https://github.com/ran-mian/mianyi-update/releases/download/v0.9.0/mianyi-setup-0.9.0.exe",
+  "size": 123437058
 }
