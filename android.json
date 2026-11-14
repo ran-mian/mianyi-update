@@ -1,13 +1,13 @@
 {
-    "apk": "https://ghproxy.net/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.3/mianyi-android-2.0.3.apk",
-    "versionName": "2.0.3",
-    "pub_date": "2026-11-14T12:07:12.660+08:00",
-    "versionCode": 53,
-    "notes": "2.0.3 回归修复：红米 K90/高长宽比全面屏；全屏铺满+隐藏返回/下载；首页最近播放圆形封面铺满；网格/影视/最近添加按宽度自适应；在线音乐补网易歌词与 iTunes 封面；主题预设/自定义色优先于插件；我的页头像换应用图标；AI 自动朗读开关（默认关）；输入框内按住说话松手转写；写作新增开篇/对话/场景/转折/起名与插入光标。安装包约 437MB（不含用户媒体文件）。",
+    "apk": "https://ghproxy.net/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.4/mianyi-android-2.0.4.apk",
+    "versionName": "2.0.4",
+    "pub_date": "2026-11-14T12:18:42.634+08:00",
+    "versionCode": 54,
+    "notes": "2.0.4 回归修复：红米 K90/高长宽比全面屏；全屏铺满并隐藏返回/下载；最近播放圆形封面铺满；在线音乐补网易歌词与 iTunes 封面；主题预设/自定义色优先于插件且返回主界面自动重建；我的页头像换应用图标；AI 自动朗读开关（默认关）；AI 聊天输入框内按住说话；写作新增开篇/对话/场景/转折/起名与插入光标。安装包约 437MB（不含用户媒体文件）。",
     "size": 437136551,
-    "sha256": "D7F09A344F53D6C467303857C98167D8B9F752821CD72E0325A3F850578C40CB",
+    "sha256": "4DF77DA469C0CDF9FEA92976FFC8B6482EB215DA47096A03BBEBFAD4032E8CFF",
     "mirrors": [
-        "https://gh-proxy.com/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.3/mianyi-android-2.0.3.apk",
-        "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.3/mianyi-android-2.0.3.apk"
+        "https://gh-proxy.com/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.4/mianyi-android-2.0.4.apk",
+        "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.4/mianyi-android-2.0.4.apk"
     ]
 }
