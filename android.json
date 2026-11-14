@@ -1,13 +1,13 @@
 {
-    "apk": "https://ghproxy.net/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.2/mianyi-android-2.0.2.apk",
-    "versionName": "2.0.2",
-    "pub_date": "2026-11-14T11:04:25.064+08:00",
-    "versionCode": 52,
-    "notes": "2.0.2：全屏改为根层覆盖并隐藏返回/下载；选集最高 260dp 内部滚动 + 上下集；首页/网格/影视卡片按宽度自适应；AI 新增音量/倍速/睡眠/模式/进度/收藏/打开工具等十余项工具与自然语言兜底；按住说话松手转写并回填输入框；主题工作室（8 套渐变/磨砂玻璃/自定义主色）并同步写作页；新增清理空间；内置 8 个采集源（含 4K）且剧集优先 4K；更新默认国内 CDN + APK 国内镜像 + SHA-256 校验。安装包约 437MB（不含用户媒体文件）。",
-    "size": 437135499,
-    "sha256": "AF27B0D255F0686E40C0B38D13E8AB8A0C620E3C42B1E25810C539E2CE11072E",
+    "apk": "https://ghproxy.net/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.3/mianyi-android-2.0.3.apk",
+    "versionName": "2.0.3",
+    "pub_date": "2026-11-14T12:07:12.660+08:00",
+    "versionCode": 53,
+    "notes": "2.0.3 回归修复：红米 K90/高长宽比全面屏；全屏铺满+隐藏返回/下载；首页最近播放圆形封面铺满；网格/影视/最近添加按宽度自适应；在线音乐补网易歌词与 iTunes 封面；主题预设/自定义色优先于插件；我的页头像换应用图标；AI 自动朗读开关（默认关）；输入框内按住说话松手转写；写作新增开篇/对话/场景/转折/起名与插入光标。安装包约 437MB（不含用户媒体文件）。",
+    "size": 437136551,
+    "sha256": "D7F09A344F53D6C467303857C98167D8B9F752821CD72E0325A3F850578C40CB",
     "mirrors": [
-        "https://gh-proxy.com/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.2/mianyi-android-2.0.2.apk",
-        "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.2/mianyi-android-2.0.2.apk"
+        "https://gh-proxy.com/https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.3/mianyi-android-2.0.3.apk",
+        "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.3/mianyi-android-2.0.3.apk"
     ]
 }
