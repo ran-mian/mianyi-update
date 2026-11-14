@@ -1,9 +1,9 @@
 {
-    "apk": "https://github.com/ran-mian/mianyi-update/releases/download/android-v2.0.1/mianyi-android-2.0.1.apk",
-    "versionName": "2.0.1",
-    "pub_date": "2026-11-13T23:39:21.994+08:00",
-    "versionCode": 51,
-    "notes": "2.0.1 在线播放修复：① 在线音乐点任意一首按整张搜索结果连播，下一首在 ExoPlayer 加载线程懒解析；② 修正影视全屏高度误用长边导致视频区比屏幕高一倍；③ 选集区最高 260dp 内部滚动并自动定位当前集，新增上一集/下一集；④ 音乐网易/GD 双源并行、影视全源并行，结果缓存 5–10 分钟，连接/读取超时收紧；⑤ https 失败自动回退 http，超时/证书/连接重置提示中文化，影视源可手动指定并保留自动兜底。安装包约 437MB（不含用户媒体文件）。",
-    "size": 437104751,
-    "sha256": "134E6698867AC55B2D418D67998993BAE2DA2E48E7EE8F90994ED89E6F472244"
+    "apk":  "https://github.com/ran-mian/mianyi-update/releases/download/v2.0.2/mianyi-android-2.0.2.apk",
+    "versionName":  "2.0.2",
+    "pub_date":  "2026-11-14T02:02:59.383Z",
+    "versionCode":  52,
+    "notes":  "2.0.2：新图标；全站配色改为星蓝→暮紫渐变（不再用绿色）；自定义背景居中裁剪不变形；影视全屏控制条 3 秒自动淡出；更新源默认 jsDelivr 并自动回落；语音入口离线模型没装自动退系统听写、TTS 修复；网格封面裁剪铺满。APK 约 417MB（内置离线语音模型），走 Releases 下载。",
+    "size":  417,
+    "sha256":  "80208AE6AEEF6A2FD1249C9D385E0F5DD296B5B60CBD1953C109D1134558D4CF"
 }
